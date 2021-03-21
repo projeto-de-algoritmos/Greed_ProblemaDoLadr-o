@@ -5,7 +5,7 @@ import { vehicles } from '../../data/vehicles.js';
 import './styles.css';
 
 const Home = () => {
-  const [vehicle, setVehicle] = useState({});
+  const [vehicle, setVehicle] = useState(0);
 
   return (
     <div id="home-container">
@@ -30,16 +30,21 @@ const Home = () => {
             value={vehicle}
             onChange={(event) => setVehicle(event.target.value)}
           >
-            <option>Selecione</option>
-            {vehicles.map((item) => (
-              <option key={item.id} value={item}>
-                {item.name} - {item.space} m3
-              </option>
-            ))}
+            <>
+              <option>Selecione</option>
+              {vehicles.map((item) => (
+                <option key={item.id} value={item.id}>
+                  {item.name} - {item.space} m3
+                </option>
+              ))}
+            </>
           </select>
 
-          <Link id="home-button" to={`/sculptures/${vehicle.id}`}>
-            <h1>opa</h1>
+          <Link
+            id="home-button"
+            to={vehicle === 0 ? '' : `/sculptures/${vehicle}`}
+          >
+            <h1>Avançar</h1>
           </Link>
         </div>
       </section>
