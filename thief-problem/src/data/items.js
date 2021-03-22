@@ -2,11 +2,25 @@
 // space: representa o espaço que o item ocupa em metros cúbicos
 export const items = [
   {
+    id: 28,
+    image: '31.png',
+    name: 'Romero britto original',
+    value: 140000,
+    space: 1,
+  },
+  {
     id: 1,
     image: '1.png',
     name: 'Escultura de cavalo',
     value: 300,
     space: 1,
+  },
+  {
+    id: 5,
+    image: '5.png',
+    name: 'Vestido da rainha',
+    value: 28000,
+    space: 2,
   },
   {
     id: 2,
@@ -30,10 +44,10 @@ export const items = [
     space: 5,
   },
   {
-    id: 5,
-    image: '5.png',
-    name: 'Vestido da rainha',
-    value: 28000,
+    id: 7,
+    image: '7.png',
+    name: 'Relógio antigo',
+    value: 2000,
     space: 2,
   },
   {
@@ -44,13 +58,6 @@ export const items = [
     space: 1,
   },
   {
-    id: 7,
-    image: '7.png',
-    name: 'Relógio antigo',
-    value: 2000,
-    space: 2,
-  },
-  {
     id: 8,
     image: '8.png',
     name: 'Vaso egipcio',
@@ -58,11 +65,25 @@ export const items = [
     space: 3,
   },
   {
+    id: 24,
+    image: '26.png',
+    name: 'Escultura grega',
+    value: 50000,
+    space: 9,
+  },
+  {
     id: 9,
     image: '9.png',
     name: 'Vaso florido',
     value: 100,
     space: 2,
+  },
+  {
+    id: 30,
+    image: '33.png',
+    name: 'Crânio de dinossauro',
+    value: 800000,
+    space: 12
   },
   {
     id: 10,
@@ -114,6 +135,13 @@ export const items = [
     space: 1,
   },
   {
+    id: 26,
+    image: '28.png',
+    name: 'Quadro do Picasso',
+    value: 600000,
+    space: 2,
+  },
+  {
     id: 17,
     image: '19.png',
     name: 'Máscara antiga',
@@ -128,6 +156,13 @@ export const items = [
     space: 5,
   },
   {
+    id: 29,
+    image: '32.png',
+    name: 'Estátua de Poseidon',
+    value: 2000000,
+    space: 9
+  },
+  {
     id: 19,
     image: '21.png',
     name: 'Estátua de arqueiro',
@@ -140,6 +175,13 @@ export const items = [
     name: 'Máscara de porcelana',
     value: 150,
     space: 1,
+  },
+  {
+    id: 27,
+    image: '30.png',
+    name: 'Mona lisa',
+    value: 790000000,
+    space: 2,
   },
   {
     id: 21,
@@ -163,52 +205,10 @@ export const items = [
     space: 10,
   },
   {
-    id: 24,
-    image: '26.png',
-    name: 'Escultura grega',
-    value: 50000,
-    space: 9,
-  },
-  {
     id: 25,
     image: '27.png',
     name: 'Quadro do Picasso',
     value: 500000,
     space: 2,
   },
-  {
-    id: 26,
-    image: '28.png',
-    name: 'Quadro do Picasso',
-    value: 600000,
-    space: 2,
-  },
-  {
-    id: 27,
-    image: '30.png',
-    name: 'Mona lisa',
-    value: 790000000,
-    space: 2,
-  },
-  {
-    id: 28,
-    image: '31.png',
-    name: 'Romero britto original',
-    value: 140000,
-    space: 1,
-  },
-  {
-    id: 29,
-    image: '32.png',
-    name: 'Estátua de Poseidon',
-    value: 2000000,
-    space: 9
-  },
-  {
-    id: 30,
-    image: '33.png',
-    name: 'Crânio de dinossauro',
-    value: 800000,
-    space: 12
-  }
 ];
