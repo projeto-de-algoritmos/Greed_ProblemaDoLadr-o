@@ -24,7 +24,11 @@ const Sculptures = (props) => {
       <header id="sculptures-header">
         <div id="sculptures-titles-container">
           <h1 id="sculptures-title">Itens do Museu</h1>
-          <h2 id="sculptures-subtitle">Total: {items.length}</h2>
+
+          <div id="sculptures-quantity-container">
+            <h2 id="sculptures-subtitle">Total:</h2>
+            <h2 id="sculptures-quantity-items">{items.length}</h2>
+          </div>
         </div>
 
         <div id="sculptures-calculate-container">
@@ -39,8 +43,16 @@ const Sculptures = (props) => {
           >
             <h1>Calcular</h1>
           </button>
-          <h1 id="sculptures-button-title">Melhor Valor:</h1>
-          <h2 id="sculptures-button-subtitle">U$ {totalValue}</h2>
+
+          <div id="sculptures-result-value-container">
+            <h1 id="sculptures-result-title">Melhor Valor:</h1>
+            <h2 id="sculptures-result-value">{formatPrice(totalValue)}</h2>
+          </div>
+
+          <div id="sculptures-result-quantity-container">
+            <h2 id="sculptures-result-subtitle">Quantidade de Itens:</h2>
+            <h2 id="sculptures-result-quantity">{targets.length}</h2>
+          </div>
         </div>
       </header>
 
@@ -55,7 +67,7 @@ const Sculptures = (props) => {
             key={item.id}
           >
             <h2>{item.name}</h2>
-            <p>Valor: U$ {item.value}</p>
+            <p>Valor: {formatPrice(item.value)}</p>
 
             <div id="sculptures-image-container">
               <img

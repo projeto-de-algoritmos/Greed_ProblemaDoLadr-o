@@ -14,9 +14,14 @@
   padding: 0 8rem;
 }
 
-#sculptures-title,
-#sculptures-subtitle {
+#sculptures-title {
   color: #fff;
+}
+
+#sculptures-quantity-items {
+  color: #5c83cf;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 #sculptures-button {
@@ -37,10 +42,27 @@
   transition: background-color 0.2s;
 }
 
-#sculptures-button-title,
-#sculptures-button-subtitle {
+#sculptures-quantity-container,
+#sculptures-result-value-container,
+#sculptures-result-quantity-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#sculptures-subtitle,
+#sculptures-result-title,
+#sculptures-result-subtitle,
+#sculptures-result-quantity {
   color: #fff;
   margin-top: 1rem;
+}
+
+#sculptures-result-value,
+#sculptures-result-quantity {
+  color: #66cf5c;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 #sculptures-items-container {
