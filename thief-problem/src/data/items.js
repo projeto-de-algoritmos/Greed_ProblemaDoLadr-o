@@ -197,4 +197,18 @@ export const items = [
     value: 140000,
     space: 1,
   },
+  {
+    id: 29,
+    image: '32.png',
+    name: 'Estátua de Poseidon',
+    value: 2000000,
+    space: 9
+  },
+  {
+    id: 30,
+    image: '33.png',
+    name: 'Crânio de dinossauro',
+    value: 800000,
+    space: 12
+  }
 ];
