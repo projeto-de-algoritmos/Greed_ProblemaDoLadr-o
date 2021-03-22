@@ -13,7 +13,7 @@
 O vídeo da apresentação se encontra na pasta /media.
 
 ## Sobre 
-O nosso projeto utiliza o algoritmo Knapsack para encontrar a melhor combinação de elementos em valor que caibam em um caminhão com capacidade limitada. No projeto, temos um ladrão que está planejando roubar um museu, escolhemos o caminhão que será utilizado no roubo (cada caminhão tem um limite de peso) e, de acordo com isso, selecionamos os itens mais valiosos do museu que caibam no caminhão. 
+O nosso projeto utiliza o algoritmo Knapsack para encontrar a melhor combinação de elementos em valor que caibam em um caminhão com capacidade limitada. No projeto, temos um ladrão que está planejando roubar um museu, escolhemos o caminhão que será utilizado no roubo (cada caminhão tem um limite de espaço) e, de acordo com isso, selecionamos os itens mais valiosos do museu que caibam no caminhão. 
 
 ## Screenshots
 ![](./images/inicio.png)
