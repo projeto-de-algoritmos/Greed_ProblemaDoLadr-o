@@ -1,3 +1,7 @@
+// caminhão 3/4 : 29 m3
+// caminhão toco : 44 m3
+// caminhão truck : 58 m3
+// caminhão carreta : 97 m3
 export const vehicles = [
   {
     id: 1,

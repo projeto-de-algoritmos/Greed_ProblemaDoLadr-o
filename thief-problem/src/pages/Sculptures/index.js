@@ -10,6 +10,15 @@ const Sculptures = (props) => {
 
   const vehicleId = props.match.params.id;
 
+  const formatPrice = (price) => {
+    const formatter = new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+    });
+
+    return formatter.format(price);
+  };
+
   return (
     <div id="sculptures-container">
       <header id="sculptures-header">
